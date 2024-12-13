@@ -1,2 +1,8 @@
 # CP44448.github.io
-Portfolio
+portfolio/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   └── profile.jpg
+
