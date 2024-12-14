@@ -1,87 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chintan Patel | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chintan Patel - Software Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Landing Section -->
-  <header id="landing">
-    <div class="container">
-      <h1>Chintan Patel</h1>
-      <p>Crafting solutions with code and creativity.</p>
-      <div class="cta">
-        <a href="#about">About Me</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </div>
-  </header>
+    <header>
+        <div class="hero">
+            <h1>Hi, I'm Chintan Patel</h1>
+            <p>Software Developer | C# | Full-Stack | Remote Work Enthusiast</p>
+            <a href="#contact" class="btn">Let's Connect</a>
+        </div>
+    </header>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am a software developer with over 5 years of experience in building scalable, user-friendly solutions. 
-      I specialize in Dot Net (C#), database handling, and Agile methodologies.
-    </p>
-  </section>
+    <section id="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>I'm an IT professional with 5+ years of experience in full-stack development. I am passionate about building innovative solutions with a methodical, problem-solving approach.</p>
+            <img src="assets/images/chintan.jpg" alt="Chintan Patel" class="profile-pic">
+        </div>
+    </section>
 
-  <!-- Experience Section -->
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="timeline">
-      <div class="timeline-item">
-        <h3>Software Programmer</h3>
-        <p><strong>Legacy Heating and Cooling</strong> (Feb 2024 - Jul 2024)</p>
-        <ul>
-          <li>Implemented image thumbnails for ERP.</li>
-          <li>Integrated geolocation APIs for scheduling.</li>
-          <li>Maintained customer data scripts.</li>
-        </ul>
-      </div>
-      <!-- Add more timeline items here -->
-    </div>
-  </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <ul>
+                <li>Backend: Java, C#, PHP, Linq</li>
+                <li>Frontend: HTML, CSS, JavaScript, React.js</li>
+                <li>Database: SQL Server, MySQL</li>
+                <li>Tools: Git, GitHub, AWS, Flutter, Android Studio</li>
+            </ul>
+        </div>
+    </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-list">
-      <div class="project-card">
-        <h3>MTLChaussers Web App</h3>
-        <p>Technologies: HTML, CSS, JS, PHP</p>
-        <a href="https://github.com/Cp4444/mtlchaussers-web" target="_blank">View on GitHub</a>
-      </div>
-      <!-- Add more project cards here -->
-    </div>
-  </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>MTLChaussers Web Application</h3>
+            <p>Technologies: HTML, JS, CSS, PHP</p>
+            <p>A web application developed using agile methodologies to offer a seamless online shopping experience.</p>
+        </div>
+        <!-- Add more project details here -->
+    </section>
 
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <span>.NET</span>
-      <span>C#</span>
-      <span>SQL</span>
-      <span>Flutter</span>
-      <span>JavaScript</span>
-      <!-- Add more skills -->
-    </div>
-  </section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3>Legacy Heating and Cooling</h3>
+            <p>Software Programmer - Feb 2024 to Jul 2024</p>
+            <p>Implemented attachment thumbnails, geolocation features, and backend scripts.</p>
+        </div>
+        <!-- Add more experiences here -->
+    </section>
 
-  <!-- Contact Section -->
-  <footer id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:cpatel3005@gmail.com">cpatel3005@gmail.com</a></p>
-    <p>Phone: 514-585-6361</p>
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/sw-dev-chintan-patel/" target="_blank">LinkedIn</a>
-      <a href="https://github.com/Cp4444" target="_blank">GitHub</a>
-    </div>
-  </footer>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="mailto:cpatel3005@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
 
-  <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Chintan Patel</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
